@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c3wxfsgeui8ba"]
 
 [ext_resource type="Texture2D" uid="uid://dh2rtso82yabq" path="res://assets/sprites/GemBg.png" id="1_ibkli"]
+[ext_resource type="PackedScene" uid="uid://cngp5wa1c104b" path="res://scenes/Dice.tscn" id="2_qbsmt"]
 
 [node name="Game" type="Node2D" unique_id=1891992329]
 
@@ -10,3 +11,6 @@ scale = Vector2(0.61510414, 0.62777776)
 texture = ExtResource("1_ibkli")
 
 [node name="Music" type="AudioStreamPlayer" parent="." unique_id=1541064385]
+
+[node name="Dice" parent="." unique_id=889635388 instance=ExtResource("2_qbsmt")]
+position = Vector2(721, 64)

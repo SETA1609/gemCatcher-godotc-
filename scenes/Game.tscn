@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c3wxfsgeui8ba"]
+
+[ext_resource type="Texture2D" uid="uid://dh2rtso82yabq" path="res://assets/sprites/GemBg.png" id="1_ibkli"]
+
+[node name="Game" type="Node2D" unique_id=1891992329]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1461077070]
+position = Vector2(584, 311.00003)
+scale = Vector2(0.61510414, 0.62777776)
+texture = ExtResource("1_ibkli")
+
+[node name="Music" type="AudioStreamPlayer" parent="." unique_id=1541064385]
